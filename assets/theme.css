@@ -2365,12 +2365,6 @@ th {
 .fs-carousel-enabled .fs-carousel-page.fs-carousel-active {
   opacity: 1;
 }
-/**
-	 * @class
-	 * @name .fs-equalize-element
-	 * @type element
-	 * @description Target Element
-	 */
 /* Magnific Popup CSS */
 .mfp-bg {
   top: 0;
@@ -3549,6 +3543,13 @@ body {
   }
 }
 @media screen and (min-width: 980px) {
+  #wrapper #lower--menu {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 980px) {
   #site--content {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -3561,6 +3562,7 @@ body {
     bottom: 0;
     width: 100%;
     left: 0;
+    z-index: 3;
   }
 }
 #footer-wrapper #footer {
@@ -3576,6 +3578,7 @@ body {
     top: 0;
     width: 100%;
     left: 0;
+    z-index: 3;
   }
 }
 #header-wrapper #header {
@@ -3583,13 +3586,57 @@ body {
   background: rgba(0, 0, 0, 0.25);
 }
 .index-item {
-  padding: 15px;
   border-bottom: 1px solid #e7e7ec;
   border-right: 1px solid #e7e7ec;
+  overflow: hidden;
 }
 .index-item.medium {
   min-height: 300px;
 }
 .index-item.large {
   min-height: 600px;
+}
+.index-item .title {
+  font-size: 16px;
+  font-size: 1rem;
+}
+.index-item .thumb img {
+  -webkit-transition: 300ms ease;
+          transition: 300ms ease;
+}
+.index-item .thumb .primary {
+  position: relative;
+  z-index: 2;
+}
+.index-item .thumb .secondary {
+  position: absolute;
+  top: 0;
+}
+.index-item .thumb:hover .primary {
+  opacity: 0;
+}
+.index-item .meta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 1px;
+  z-index: 3;
+  padding: 11.25px 15px;
+  -webkit-transition: 200ms ease;
+          transition: 200ms ease;
+  background: #f7f7f7;
+}
+.index-item .meta .title {
+  margin: 0;
+}
+.index-item:hover .meta {
+  padding: 15px;
+}
+#header-wrapper #header {
+  background: #ffffff;
+  border-bottom: 1px solid #e7e7ec;
+}
+#footer-wrapper #footer {
+  background: #ffffff;
+  border-top: 1px solid #e7e7ec;
 }

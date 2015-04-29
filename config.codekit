@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18911",
+"creatorBuild": "18493",
 "files": {
 	"\/assets\/apache_baseball.png": {
 		"fileType": 32768,
@@ -388,17 +388,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/classie\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/classie\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/classie\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/src\/bower_components\/classie\/classie.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -411,36 +400,16 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/src\/bower_components\/classie\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/classie\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/classie\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/doc-ready\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/doc-ready\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/doc-ready\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/doc-ready\/doc-ready.js": {
 		"fileType": 64,
@@ -454,47 +423,16 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/src\/bower_components\/doc-ready\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/doc-ready\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/doc-ready\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/eventEmitter\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/eventEmitter\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/eventEmitter\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/src\/bower_components\/eventEmitter\/component.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/eventEmitter\/component.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/eventEmitter\/component-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/eventEmitter\/EventEmitter.js": {
 		"fileType": 64,
@@ -519,36 +457,16 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/src\/bower_components\/eventEmitter\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/eventEmitter\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/eventEmitter\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/eventie\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/eventie\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/eventie\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/eventie\/eventie.js": {
 		"fileType": 64,
@@ -561,69 +479,29 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/eventie\/package.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/eventie\/package.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/eventie\/package-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/src\/bower_components\/eventie\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/eventie\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/eventie\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/fizzy-ui-utils\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/fizzy-ui-utils\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/fizzy-ui-utils\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/fizzy-ui-utils\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/fizzy-ui-utils\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/fizzy-ui-utils\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/fizzy-ui-utils\/utils.js": {
 		"fileType": 64,
@@ -635,17 +513,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/src\/bower_components\/formstone\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
 		},
 	"\/src\/bower_components\/formstone\/dist\/css\/background.css": {
 		"fileType": 16,
@@ -1025,57 +892,28 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/src\/bower_components\/formstone\/LICENSE.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/LICENSE.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/LICENSE.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/formstone\/package.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/package.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/package-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/asap.html": {
 		"fileType": 8192,
@@ -1087,25 +925,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/asap.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/asap.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/asap.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/background.html": {
 		"fileType": 8192,
@@ -1117,25 +946,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/background.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/background.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/background.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/carousel.html": {
 		"fileType": 8192,
@@ -1147,25 +967,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/carousel.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/carousel.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/carousel.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/checkbox.html": {
 		"fileType": 8192,
@@ -1177,25 +988,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/checkbox.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/checkbox.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/checkbox.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/cookie.html": {
 		"fileType": 8192,
@@ -1207,46 +1009,28 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/cookie.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/cookie.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/cookie.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/core.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/core.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/core.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/dropdown.html": {
 		"fileType": 8192,
@@ -1258,25 +1042,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/dropdown.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/dropdown.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/dropdown.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/equalize.html": {
 		"fileType": 8192,
@@ -1288,25 +1063,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/equalize.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/equalize.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/equalize.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/grid.html": {
 		"fileType": 8192,
@@ -1318,25 +1084,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/grid.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/grid.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/grid.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/lightbox.html": {
 		"fileType": 8192,
@@ -1348,25 +1105,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/lightbox.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/lightbox.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/lightbox.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/mediaquery.html": {
 		"fileType": 8192,
@@ -1378,25 +1126,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/mediaquery.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/mediaquery.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/mediaquery.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/navigation.html": {
 		"fileType": 8192,
@@ -1408,25 +1147,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/navigation.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/navigation.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/navigation.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/number.html": {
 		"fileType": 8192,
@@ -1438,25 +1168,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/number.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/number.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/number.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/pagination.html": {
 		"fileType": 8192,
@@ -1468,25 +1189,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/pagination.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/pagination.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/pagination.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/range.html": {
 		"fileType": 8192,
@@ -1498,25 +1210,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/range.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/range.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/range.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/scrollbar.html": {
 		"fileType": 8192,
@@ -1528,25 +1231,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/scrollbar.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/scrollbar.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/scrollbar.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/swap.html": {
 		"fileType": 8192,
@@ -1558,25 +1252,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/swap.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/swap.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/swap.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/tabs.html": {
 		"fileType": 8192,
@@ -1588,25 +1273,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/tabs.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tabs.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tabs.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/tooltip.html": {
 		"fileType": 8192,
@@ -1618,25 +1294,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/tooltip.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tooltip.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tooltip.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/touch.html": {
 		"fileType": 8192,
@@ -1648,25 +1315,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/touch.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/touch.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/touch.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/transition.html": {
 		"fileType": 8192,
@@ -1678,25 +1336,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/transition.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/transition.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/transition.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/upload.html": {
 		"fileType": 8192,
@@ -1708,25 +1357,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/docs\/upload.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/upload.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/upload.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/formstone\/src\/js\/asap.js": {
 		"fileType": 64,
@@ -2421,17 +2061,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/get-size\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/get-size\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/get-size\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/src\/bower_components\/get-size\/get-size.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2453,47 +2082,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/get-size\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/get-size\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/get-size\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/get-style-property\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/get-style-property\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/get-style-property\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/src\/bower_components\/get-style-property\/component.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/get-style-property\/component.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/get-style-property\/component-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/get-style-property\/get-style-property.js": {
 		"fileType": 64,
@@ -2506,48 +2104,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/get-style-property\/package.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/get-style-property\/package.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/get-style-property\/package-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/src\/bower_components\/get-style-property\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/get-style-property\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/get-style-property\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/jquery\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/jquery\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/jquery\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/jquery\/dist\/jquery.js": {
 		"fileType": 64,
@@ -3484,28 +3051,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/magnific-popup\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/src\/bower_components\/magnific-popup\/composer.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/composer.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/composer-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/src\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3548,48 +3093,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/magnific-popup\/magnific-popup.jquery.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/magnific-popup.jquery.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/magnific-popup.jquery-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/src\/bower_components\/magnific-popup\/package.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/package.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/package-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/src\/bower_components\/magnific-popup\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/magnific-popup\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/magnific-popup\/src\/css\/_settings.scss": {
 		"createSourceMap": 0,
@@ -3722,17 +3236,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/matches-selector\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/matches-selector\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/matches-selector\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/src\/bower_components\/matches-selector\/matches-selector.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3745,57 +3248,28 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/src\/bower_components\/matches-selector\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/matches-selector\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/matches-selector\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/normalize-css\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/normalize-css\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/normalize-css\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/normalize-css\/LICENSE.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/normalize-css\/LICENSE.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/normalize-css\/LICENSE.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/normalize-css\/normalize.css": {
 		"fileType": 16,
@@ -3807,36 +3281,16 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/normalize-css\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/normalize-css\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/normalize-css\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/outlayer\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/outlayer\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/outlayer\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/outlayer\/item.js": {
 		"fileType": 64,
@@ -3861,57 +3315,28 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/src\/bower_components\/outlayer\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/outlayer\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/outlayer\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/src\/bower_components\/packery\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/packery\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/packery\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/packery\/changelog.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/packery\/changelog.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/packery\/changelog.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/packery\/dist\/packery.pkgd.js": {
 		"fileType": 64,
@@ -3980,25 +3405,16 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/src\/bower_components\/packery\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
+		"enableFootnoteSupport": 1,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/packery\/README.md",
-		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/src\/bower_components\/packery\/README.html",
-		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/bower_components\/packery\/sandbox\/add-remove.html": {
 		"fileType": 8192,
@@ -4228,6 +3644,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/kit\/includes\/_lower-nav.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/kit\/includes\/_lower-nav.kit",
+		"outputAbbreviatedPath": "\/src\/kit\/includes\/_lower-nav.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/kit\/includes\/_main-nav.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -4263,6 +3688,15 @@
 		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
+		},
+	"\/src\/kit\/items\/item_1.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/kit\/items\/item_1.kit",
+		"outputAbbreviatedPath": "\/src\/kit\/items\/item_1.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/kit\/privacy.kit": {
 		"fileType": 2048,
@@ -4352,6 +3786,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/less\/_footer.less",
 		"outputAbbreviatedPath": "\/src\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/src\/less\/_header.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/less\/_header.less",
+		"outputAbbreviatedPath": "\/src\/css\/_header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -4592,46 +4046,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/less\/config\/_fonts.less",
 		"outputAbbreviatedPath": "\/src\/less\/css\/_fonts.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/src\/less\/config\/_footer.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/less\/config\/_footer.less",
-		"outputAbbreviatedPath": "\/src\/less\/css\/_footer.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/src\/less\/config\/_header.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/less\/config\/_header.less",
-		"outputAbbreviatedPath": "\/src\/less\/css\/_header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -5036,10 +4450,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"futurehostile": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -5126,10 +4536,6 @@
 			},
 		"noarg": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"nocomma": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"node": {
@@ -5230,10 +4636,6 @@
 			},
 		"unused": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"varstmt": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
@@ -5359,14 +4761,6 @@
 			"flagValue": -1
 			}
 		},
-	"jsonAutoOutputPathEnabled": 0,
-	"jsonAutoOutputPathFilenamePattern": "*-min.json",
-	"jsonAutoOutputPathRelativePath": "",
-	"jsonAutoOutputPathReplace1": "",
-	"jsonAutoOutputPathReplace2": "",
-	"jsonAutoOutputPathStyle": 0,
-	"jsonOrderOutput": 0,
-	"jsonOutputStyle": 1,
 	"kitAutoOutputPathEnabled": 1,
 	"kitAutoOutputPathFilenamePattern": "*.html",
 	"kitAutoOutputPathRelativePath": "",
@@ -5394,18 +4788,9 @@
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
 	"markdownAutoOutputPathStyle": 0,
-	"markdownCriticStyle": 0,
 	"markdownEnableFootnotes": 1,
-	"markdownEnableLabels": 1,
-	"markdownEnableSmartQuotes": 1,
-	"markdownEscapeLineBreaks": 0,
-	"markdownMaskEmailAddresses": 1,
-	"markdownOutputFormat": 0,
-	"markdownOutputStyle": 0,
-	"markdownParseMetadata": 1,
-	"markdownProcessHTML": 0,
-	"markdownRandomFootnoteNumbers": 0,
-	"markdownUseCompatibilityMode": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
 	"reloadFileURLs": 1,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
@@ -5461,10 +4846,6 @@
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"bare-returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5545,10 +4926,6 @@
 			"flagValue": -1
 			},
 		"keep_fargs": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"keep_fnames": {
 			"active": 0,
 			"flagValue": -1
 			},

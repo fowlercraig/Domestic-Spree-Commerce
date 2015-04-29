@@ -2,9 +2,9 @@
 
 .index-item {
 
-  padding: @padding;
   border-bottom: 1px solid @lighterGray;
   border-right: 1px solid @lighterGray;
+  overflow: hidden;
 
   &.medium {
     min-height: @padding*20;
@@ -12,6 +12,66 @@
 
   &.large {
     min-height: @padding*40;
+  }
+
+  .title {
+    .font_size(16);
+  }
+
+  .thumb {
+
+    img {
+      transition: 300ms ease;
+    }
+
+    .primary {
+
+      position: relative;
+      z-index: 2;
+
+    }
+
+    .secondary {
+
+      position: absolute;
+      top: 0;
+
+    }
+
+    &:hover {
+
+      .primary {
+        opacity: 0;
+      }
+
+    }
+
+  }
+
+  .meta {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 1px;
+    z-index: 3;
+    padding: @padding*.75 @padding;
+    transition: 200ms ease;
+    background: lighten(@bgGray, 2%);
+
+    .title {
+
+      margin: 0;
+
+    }
+
+  }
+
+  &:hover {
+
+    .meta {
+      padding: @padding;
+    }
   }
 
 }
