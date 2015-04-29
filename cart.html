@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Store 1427738660</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="./assets/main.css" rel="stylesheet" type="text/css">
+  <link href="./assets/theme.css" rel="stylesheet" type="text/css" media="all">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <header id="main-header">
+    <div class="container">
+
+      <div class="grid">
+
+        <div class="grid__col grid__col--2-of-6">
+          <h1 class="store-name">
+            <a href="./index.html">
+              Store 1427738660
+            </a>
+          </h1>
+        </div>
+
+        <div class="grid__col grid__col--3-of-6">
+          <nav id="main-menu">
+            <a href="./index.html">Home</a>
+            <a href="./category.html">Categories</a>
+            <a href="./contact.html">Contact Us</a>
+          </nav>
+        </div>
+
+        <div class="grid__col grid__col--1-of-6">
+
+          <div id="cart-top" class="text-right">
+            <a href="./cart.html">
+              <span class="ti-shopping-cart"></span>
+              <span class="text">View Cart</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <div class="container">
+    <main id="main-content" role="main">
+
+      <div class="page-header">
+        <h1 class="page-title">Cart</h1>
+      </div>
+
+      <form action="./cart.html" method="post" role="form">
+        <input name="_method" value="patch" type="hidden">
+
+        <table id="cart-table">
+          <colgroup>
+            <col style="width: 10%;">
+            <col style="width: 50%;">
+            <col style="width: 10%;">
+            <col style="width: 10%;">
+            <col style="width: 10%;">
+            <col style="width: 10%;">
+          </colgroup>
+          <thead>
+            <tr>
+              <th colspan="2">Product</th>
+              <th class="text-center">Quantity</th>
+              <th class="text-center">Price</th>
+              <th class="text-center">Total</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td>
+                <img src="./assets/ror_baseball.jpeg" alt="Practical Steel Table (olive, Clothing)" width="80">
+              </td>
+              <td>
+                <a class="cart-product-title" href="./product.html?practical-steel-table">
+                  Practical Steel Table (olive, Clothing)
+                </a>
+                <p class="cart-product-description">
+                  Et explicabo nulla aut quidem eius vitae aut qu...
+                </p>
+              </td>
+              <td>
+                <input type="number" name="updates[]" class="cart-input-qty" id="updates_1" value="2">
+              </td>
+              <td class="text-center">
+                <strong>$19.21</strong>
+              </td>
+              <td class="text-center">
+                <strong>$38.42</strong>
+              </td>
+              <td class="text-center">
+                <a href="./cart.html?/change?line=1&quantity=0" class="icon danger">
+                  <span class="ti-trash"></span>
+                </a>
+              </td>
+            </tr>
+
+
+            <tr id="cart-subtotal">
+              <td colspan="5" class="text-right">
+                Subtotal
+              </td>
+              <td class="text-center">
+                <strong>$38.42</strong>
+              </td>
+            </tr>
+
+            <tr id="cart-total">
+              <td colspan="5" class="text-right">
+                Total
+              </td>
+              <td class="text-center">
+                <strong>$38.42</strong>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div id="cart-footer" class="grid">
+          <div id="cart-links" class="grid__col grid__col--6-of-12 text-left">
+            <div class="grid">
+              <div class="grid__col grid__col--3-of-6">
+                <a href="./index.html?/">
+                  <span class="ti-arrow-right"></span>
+                  Continue Shopping
+                </a>
+              </div>
+              <div class="grid__col grid__col--3-of-6">
+                <a href="./cart.html?/empty" id="empty-cart-button">
+                  <span class="ti-close"></span>
+                  Empty Cart
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div id="cart-buttons" class="grid__col grid__col--6-of-12 text-right">
+            <div class="grid__col grid__col--3-of-6">
+              <button class="button primary" type="submit">
+                <span class="ti-reload"></span>
+                Update Cart
+              </button>
+            </div>
+            <div class="grid__col grid__col--3-of-6">
+              <a class="button success" href="#">
+                <span class="ti-wallet"></span>
+                Checkout
+              </a>
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </main>
+  </div>
+
+  <footer id="main-footer">
+    <div class="container text-center">
+      <div id="footer-copyright">2015 © SpreeWorks</div>
+      <nav id="footer-menu">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="./assets/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(function() {
+    $('#empty-cart-button').click(function() {
+      return window.confirm('You sure you want to empty your cart?');
+    });
+  });
+  </script>
+
+</body>
+</html>

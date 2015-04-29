@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Store 1427738660</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="./assets/main.css" rel="stylesheet" type="text/css">
+  <link href="./assets/theme.css" rel="stylesheet" type="text/css" media="all">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <header id="main-header">
+    <div class="container">
+
+      <div class="grid">
+
+        <div class="grid__col grid__col--2-of-6">
+          <h1 class="store-name">
+            <a href="./index.html">
+              Store 1427738660
+            </a>
+          </h1>
+        </div>
+
+        <div class="grid__col grid__col--3-of-6">
+          <nav id="main-menu">
+            <a href="./index.html">Home</a>
+            <a href="./category.html">Categories</a>
+            <a href="./contact.html">Contact Us</a>
+          </nav>
+        </div>
+
+        <div class="grid__col grid__col--1-of-6">
+
+          <div id="cart-top" class="text-right">
+            <a href="./cart.html">
+              <span class="ti-shopping-cart"></span>
+              <span class="text">View Cart</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <div class="container">
+    <main id="main-content" role="main">
+      <div class="grid">
+        <div class="grid__col grid__col--6-of-12">
+          <div id="product-images-wrapper">
+            <img id="product-main-image" class="img-responsive" src="./assets/ror_bag.jpeg" alt="Ergonomic Concrete Car">
+
+
+            <ul id="product-thumbs" style="text-align: center;">
+
+              <li>
+                <img class="product-images img-responsive" src="./assets/ror_bag.jpeg" alt="Ergonomic Concrete Car" height="50">
+              </li>
+
+              <li>
+                <img class="product-images img-responsive" src="./assets/ror_baseball.jpeg" alt="Ergonomic Concrete Car (blue)" height="50">
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="grid__col grid__col--6-of-12">
+          <h1 id="product-name">Ergonomic Concrete Car</h1>
+
+          <div id="product-description">
+            Rem sapiente facilis debitis ut cupiditate aspernatur exercitationem tempore eligendi eaque excepturi ...
+          </div>
+
+          <div id="product-price">
+            $65.69
+          </div>
+
+          <form action="./cart.html?" id="add-to-cart" method="post" role="form">
+            <div id="product-variants" class="">
+
+
+              <select id="product-option-1" name="option-Color">
+                <option selected="" required="" value="">Choose Color</option>
+
+
+                <option value="tan">tan</option>
+
+                <option value="blue">blue</option>
+
+              </select>
+
+
+              <br><br>
+              <input type="number" style="padding: 6px; width: 70px;" name="quantity" value="1">
+            </div>
+
+            <input type="hidden" name="product_id" value="551990d066642d3392250000">
+            <input type="hidden" id="variant-id" name="variant_id" value="">
+
+            <script type="application/vnd.fd-variants" id="variants-json">
+            [{"image":{"position":null,"title":"Ergonomic Concrete Car (blue)","url":"./assets//ror_baseball.jpeg","type":"thumb","height":null,"width":null},"name":"Ergonomic Concrete Car (blue)","sku":"RSS63098","options":{"Color":"blue"},"count":51773,"backorderable":true,"price":"65.69"},{"image":{},"name":"Ergonomic Concrete Car (tan)","sku":"ADP14545","options":{"Color":"tan"},"count":20561,"backorderable":true,"price":"36.87"}]
+            </script>
+
+            <script type="application/vnd.fd-options" id="options-json">
+            {"Color":["tan","blue"]}
+            </script>
+
+            <button title="Please select Color to add to the Shipping Cart" type="submit" class="success" id="add-to-cart-button">
+              <span class="ti-plus"></span>
+              Add to Cart
+            </button>
+            <span id="out-of-stock"></span>
+          </form>
+        </div>
+      </div>
+
+      <script src="./assets/jquery.min.js"></script>
+      <script src="./assets/jquery-ui.js"></script>
+      <link href="./assets/jquery-ui.css" rel="stylesheet" type="text/css">
+
+      <script>
+      $(function() {
+        $(document).tooltip();
+
+        var defaultOptions = JSON.parse($("#options-json").html());
+        var variants = JSON.parse($("#variants-json").html());
+
+        var selects = $("#product-variants select");
+        var tailSelects = $("#product-variants select").splice(1, Number.MAX_VALUE);
+
+        var images = $(".product-images");
+        var mainImage = $("#product-main-image");
+
+        var productPrice = $("#product-price");
+        var variantInput = $("#variant-id");
+        var outOfStockLabel = $("#out-of-stock");
+        var addToCartButton = $("#add-to-cart-button");
+
+        tooltipSetup();
+
+        $("#add-to-cart").submit(function() {
+          return variantInput.val() != '';
+        });
+
+        mainImage.data("previous-src", 0);
+
+        images.hover(
+          function() {
+            mainImage.attr('src', this.src);
+            mainImage.attr('alt', this.alt);
+          }, function() {
+            var index = mainImage.data('previous-src');
+
+            mainImage.attr('src', images[index].src);
+            mainImage.attr('alt', images[index].alt);
+          }
+        );
+
+        images.click(function() {
+          mainImage.data("previous-src", $.inArray(this, images));
+
+          mainImage.attr('src', this.src);
+          mainImage.attr('alt', this.alt);
+        });
+
+        selects.change(function() {
+          if (this.name == selects[0].name && this.value == '') {
+
+            for (var x = 0; x < tailSelects.length; x++) {
+              var name = tailSelects[x].name.split("-")[1];
+              rebuildOptions(tailSelects[x], defaultOptions[name]);
+            }
+
+            emptyVariantFields();
+            tooltipSetup();
+            return;
+          }
+
+          if (this.value != '') {
+            setDependentOptions(this);
+          }
+
+          lookUpVariantMatch();
+          tooltipSetup();
+        });
+
+        function tooltipSetup() {
+          if (variantInput.val() == '') {
+            var keys = [];
+            for (var o in defaultOptions) {
+              keys.push(o)
+            }
+
+            var tooltipMessage = "Please select " + keys.join(", ") + " to add to the Shipping Cart";
+            addToCartButton.attr('title', tooltipMessage);
+          } else {
+            addToCartButton.attr('title', '');
+          }
+        }
+
+        function lookUpVariantMatch() {
+          var optionNames = [];
+          var optionValues = [];
+
+          for (var i = 0; i < selects.length; i++) {
+            optionNames.push(selects[i].name.split("-")[1]);
+            optionValues.push(selects[i].value);
+          }
+
+          for (var i = 0; i < variants.length; i++) {
+            var matches = 0;
+
+            for (var x = 0; x < optionNames.length; x++) {
+
+              if (variants[i].options[optionNames[x]] == optionValues[x]) {
+                matches++;
+
+                if (matches != optionNames.length) {
+                  continue;
+                }
+
+                setVariantFields(variants[i]);
+                return;
+              }
+            }
+          }
+
+          emptyVariantFields();
+        }
+
+        function setVariantFields(variant) {
+          productPrice.html("$" + variant.price);
+          variantInput.val(variant.sku);
+
+          if (variant.image.url) {
+            mainImage.attr('src', variant.image.url);
+            mainImage.attr('alt', variant.image.title);
+
+            for (var k = 0; k < images.length; k++) {
+              if (variant.image.url == images[k].src) {
+                mainImage.data("previous-src", k);
+              }
+            }
+          } else {
+            mainImage.data("previous-src", 0);
+            mainImage.attr('src', images[0].src);
+            mainImage.attr('alt', images[0].title);
+          }
+
+          var note = "";
+
+          if (variant.count <= 0) {
+            note += "Out of stock";
+
+            if (variant.backorderable) {
+              note += " but can be shipped as soon as it's available";
+            } else {
+              variantInput.val('');
+            }
+          }
+
+          outOfStockLabel.html(note);
+        }
+
+        function emptyVariantFields() {
+          outOfStockLabel.html('');
+          variantInput.val('');
+        }
+
+        function setDependentOptions(current) {
+          var current_name = current.name.split("-")[1];
+
+          for (var x = 0; x < tailSelects.length; x++) {
+            var name = tailSelects[x].name.split("-")[1];
+            var possible_values = [];
+
+            if (name == current_name || current.value == '') {
+              continue;
+            }
+
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].options[current_name] == current.value) {
+                possible_values.push(variants[i].options[name]);
+              }
+            }
+
+            rebuildOptions(tailSelects[x], possible_values);
+          }
+        }
+
+        function rebuildOptions(select, values) {
+          var jselect = $(select);
+          var name = select.name.split("-")[1];
+          var query = 'option:not(:first)'
+
+          if ($.inArray(select.value, values) != -1) {
+            query += ':not(:selected)';
+          }
+
+          jselect.children(query).remove();
+
+          for (var i = 0; i < values.length; i++) {
+            if (values[i] == select.value) {
+              continue;
+            }
+
+            jselect.append($('<option>').text(values[i]).val(values[i]));
+          }
+        }
+      });
+      </script>
+
+    </main>
+  </div>
+
+  <footer id="main-footer">
+    <div class="container text-center">
+      <div id="footer-copyright">2015 © SpreeWorks</div>
+      <nav id="footer-menu">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </footer>
+
+
+</body>
+</html>
